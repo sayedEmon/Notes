@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="greenprimary">#2e7245</color>
+    <color name="misty">#ab615d</color>
+    <color name="lalmisty">#972d27</color>
+    <color name="garomisty">#8c2a25</color>
+    <color name="akashi">#4e77a6</color>
+    <color name="garoakashi">#1055a4</color>
+    <color name="kumra">#c77c4b</color>
+    <color name="violate">#be3693</color>
+    <color name="garoviolate">#23262e</color>
+</resources>

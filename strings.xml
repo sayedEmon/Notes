@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Note</string>
+
+    <string name="edit1">Email or Phone Number</string>
+    <string name="edit2">Password</string>
+
+    <string name="login">Login </string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name : </string>
+    <string name="department">Department :</string>
+    <string name="university">University :</string>
+    <string name="email">Email :</string>
+    <string name="phone">Mobile  :</string>
+    <string name="password">Password :</string>
+    <string name="submit">Submit</string>
+    <string name="CseDashBoard">Cse DashBoard</string>
+
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="cse_name">
+     <item>Data Structure</item>
+        <item>Data Base</item>
+
+
+
+        </string-array>
+
+
+</resources>
