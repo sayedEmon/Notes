@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupbackground"
+    android:padding="20dp"
+
+    android:orientation="vertical"
+    tools:context=".signup"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+        android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/NameViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#0d0c0c"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#121111"
+        android:textCursorDrawable="@null"
+        android:hint="Enter Your Name"
+        android:textSize="15dp"
+
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/departmentViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/department"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0d0c0c"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121111"
+            android:textCursorDrawable="@null"
+            android:hint="Enter Your Department"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/universityViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/university"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0d0c0c"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121111"
+            android:textCursorDrawable="@null"
+            android:hint="Enter Your University Name"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/emailViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0d0c0c"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121111"
+            android:textCursorDrawable="@null"
+            android:hint="Enter Your Email"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/phoneViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0d0c0c"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121111"
+            android:textCursorDrawable="@null"
+            android:hint="Enter Your Phone Number"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/passwordViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0d0c0c"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#121111"
+            android:textCursorDrawable="@null"
+            android:hint="Enter Your password"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submitViewId"
+
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:background="@drawable/submitbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+</LinearLayout>
